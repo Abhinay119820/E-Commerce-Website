@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Commerce</title>
     <link rel="stylesheet" href="./Style.css">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
     <nav class="nav-container">
         <div class="navbar">
             <ul class="details">
-                <li>SHOP BY SEASON</li>
+                <li>SHOP BY SEASON
+                    <ul class="dropdown">
+                        <li>SUMMER</li>
+                        <li>WINTER</li>
+                        <li>AUTUMN</li>
+                    </ul>
+                </li>
                 <li>TOP WEAR</li>
                 <li>BOTTOM WEAR</li>
                 <li>ACCESSORIES</li>
@@ -21,7 +28,31 @@
             <span class="login"><i class="fa-solid fa-user"></i>LOGIN</span>
         </div>
         </div>
-        </div> 
+        </div>
     </nav>
+    <main>
+        <div class="video-container">
+            <div class="video">
+                <video autoplay loop>
+                    <source src="./7667417-uhd_4096_2160_25fps (1).mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </div>
+        <div class="slides">
+            <div class="slide-bar" id="slide-container">
+                <img src="https://assets.therowdy.club/17268345846316.png" alt="cloth1">
+                <img src="https://assets.therowdy.club/1732820066150GROUP.jpg" alt="cloth2">
+                <img src="https://assets.therowdy.club/1734208111793Brown.essentialh.jpg" alt="cloth3">
+                <img src="https://assets.therowdy.club/1734065314915lavhalfsleeve.jpg" alt="cloth4">
+                <img src="https://assets.therowdy.club/1746762117803DEm.jpg" alt="cloth5">
+            </div>
+            <button class="btn prev" onclick="prevSlide()">❮</button>
+            <button class="btn next" onclick="nextSlide()">❯</button>
+        </div>
+
+    </main>
+    <script src="./app.js"></script>
 </body>
+
 </html>
