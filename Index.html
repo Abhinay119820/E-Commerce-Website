@@ -7,21 +7,51 @@
     <title>E-Commerce</title>
     <link rel="stylesheet" href="./Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+
 </head>
+
 <body>
     <nav class="nav-container">
         <div class="navbar">
             <ul class="details">
                 <li>SHOP BY SEASON
                     <ul class="dropdown">
-                        <li>SUMMER</li>
-                        <li>WINTER</li>
-                        <li>AUTUMN</li>
+                        <li><a href="./summer.html">SUMMER</a></li>
+                        <li>WINTER/AUTUMN</li>
                     </ul>
                 </li>
-                <li>TOP WEAR</li>
-                <li>BOTTOM WEAR</li>
-                <li>ACCESSORIES</li>
+                <li>TOP WEAR
+                    <ul class="dropdown">
+                        <li>TEES</li>
+                        <li>HOODIES</li>
+                        <li>SHIRTS</li>
+                        <li>SWEATSHIRTS</li>
+                        <LI>KURTAS</LI>
+                        <li>CO-ORD SETS</li>
+                        <li>JACKETS</li>
+                    </ul>
+                </li>
+                <li>BOTTOM WEAR
+                    <ul class="dropdown">
+                        <li>JEANS</li>
+                        <li>TROUSERS</li>
+                        <li>JOGGERS</li>
+                        <li>SWEATPANTS</li>
+                    </ul>
+                </li>
+                <li>ACCESSORIES
+                    <ul class="dropdown">
+                        <li>KOFFE MUGS</li>
+                        <li>CAPS</li>
+                        <li>BOTTLES</li>
+                        <li>SOCKS</li>
+                    </ul>
+                </li>
             </ul>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW0GgCp0quOxC0OpSJx0-oxJFklA6MxJ6hBQ&s">
             <span class="add"><i class="fa-solid fa-cart-shopping"></i>CART</span>
@@ -37,20 +67,61 @@
                     <source src="./7667417-uhd_4096_2160_25fps (1).mp4" type="video/mp4">
                 </video>
             </div>
-
         </div>
-        <div class="slides">
-            <div class="slide-bar" id="slide-container">
-                <img src="https://assets.therowdy.club/17268345846316.png" alt="cloth1">
-                <img src="https://assets.therowdy.club/1732820066150GROUP.jpg" alt="cloth2">
-                <img src="https://assets.therowdy.club/1734208111793Brown.essentialh.jpg" alt="cloth3">
-                <img src="https://assets.therowdy.club/1734065314915lavhalfsleeve.jpg" alt="cloth4">
-                <img src="https://assets.therowdy.club/1746762117803DEm.jpg" alt="cloth5">
+        <div class="winter-sale">
+            <h1 class="heading">✨YOUR WINTER WARDROBE STARTS HERE...✨</h1>
+            <div class="Winter-images">
+                <img src="https://assets.therowdy.club/1734208111960bbluesen.jpg" alt="rwdywear">
+                <img src="https://assets.therowdy.club/1733224062300ivoryr.jpg" alt="rwdywear2">
+                <img src="https://assets.therowdy.club/17268565361525.jpg" alt="rwdywear3">
             </div>
-            <button class="btn prev" onclick="prevSlide()">❮</button>
-            <button class="btn next" onclick="nextSlide()">❯</button>
+            <div class="para-details">
+                <div class="para"><b>RWDY Denim Oversized shirt</b></div>
+                <div class="para1"><b>RWDY Hoodie</b></div>
+                <div class="para2"><b>RWDY Gambler Jacket</b></div>
+            </div>
         </div>
-
+        <div class="buttons">
+            <button id="btn"><a href="./summer.html">Shop Now</a></button>
+            <button id="btn1"><a href="./summer.html"></a>Shop Now</button>
+            <button id="btn2"><a href="./summer.html"></a>Shop Now</button>
+        </div>
+        <div class="top-wear">
+            <h1 class="heading">💫STREET STYLES THAT NEVER BACK DOWN..💫</h1>
+            <div class="topwear-images">
+                <img src="https://assets.therowdy.club/1746677784944pnkess.jpg" alt="modal">
+                <img src="https://assets.therowdy.club/1753255866095ivorwe.jpg" alt="modal1">
+                <img src="https://assets.therowdy.club/1734208112095ivoryhodd.jpg" alt="modal2">
+            </div>
+            <div class="para-details">
+                <div class="para"><b>RWDY ESSENTIAL 4.0|CRIMSON</b></div>
+                <div class="para1"><b>RWDY MONO FLOW SHIRT|IVORY DUNE</b></div>
+                <div class="para2"><b>CULTURE CO-ORDS</b></div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="btn"><a href="./summer.html">Shop Now</a></button>
+            <button id="btn1"><a href="./summer.html"></a>Shop Now</button>
+            <button id="btn2"><a href="./summer.html"></a>Shop Now</button>
+        </div>
+        <div class="Accessories">
+            <h1 class="heading">⚡COMPLETE THE LOOK, ROWDY STYLE !!⚡</h1>
+            <div class="acc-images">
+                <img src="https://assets.therowdy.club/1754561179940MuGgreen.jpg" alt="koffee mug">
+                <img src="https://assets.therowdy.club/1746288858830E03.png" alt="cap">
+                <img src="https://assets.therowdy.club/1744609454089btleecom2.png" alt="bottle">
+            </div>
+              <div class="para-details">
+                <div class="para"><b>RWDY KOFE MUG|MATCHA</b></div>
+                <div class="para1"><b>RWDY OFF CAP DUTY|SANSTONE</b></div>
+                <div class="para2"><b>RWDY SIPR|CORAL</b></div>
+            </div>
+        </div>
+          <div class="buttons">
+            <button id="btn"><a href="./summer.html">Shop Now</a></button>
+            <button id="btn1"><a href="./summer.html"></a>Shop Now</button>
+            <button id="btn2"><a href="./summer.html"></a>Shop Now</button>
+        </div>
     </main>
     <script src="./app.js"></script>
 </body>

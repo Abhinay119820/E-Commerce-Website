@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 nav {
     background: #a2d8f4;
     padding: 15px 40px;
@@ -47,10 +53,12 @@ nav {
     list-style: none;
     padding: 10px 0;
     min-width: 150px;
+
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     z-index: 1000;
 }
+
 .details li:hover .dropdown {
     display: block;
 }
@@ -58,12 +66,13 @@ nav {
 .dropdown li {
     padding: 10px 20px;
     color: #333;
+    font-size: 16px;
     white-space: nowrap;
 }
 
 .dropdown li:hover {
-    background: #a2d8f4;
-    color: #f3ebeb;
+    background: #e8adec;
+    color: #0b0505;
 }
 
 .search {
@@ -197,4 +206,155 @@ img {
     height: 100%;
     object-fit: cover;
     display: block;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.winter-sale {
+    border: 2px rgb(59, 215, 233);
+    margin-top: 20px;
+    height: 500px;
+}
+
+.Winter-images {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.Winter-images img {
+    width: 380px;
+    height: 400px;
+    position: relative;
+    left: 5px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.Winter-images :hover{
+    transform: scale(0.9);
+}
+
+.heading {
+    position: relative;
+    left: 400px;
+    font-size: 25px;
+    margin-top: 10px;
+    color: rgb(13, 3, 14);
+}
+
+.para-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.para {
+    position: relative;
+    left: 120px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.para1 {
+    position: relative;
+    right: 20px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.para2 {
+    position: relative;
+    right: 140px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#btn {
+    width: 122px;
+    height: 50px;
+    position: relative;
+    left: 150px;
+    bottom: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    background-color: #0b0505;
+}
+
+#btn1 {
+    width: 122px;
+    height: 50px;
+    position: relative;
+    left: 550px;
+    bottom: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    background-color: #0b0505;
+}
+
+#btn2 {
+    width: 122px;
+    height: 50px;
+    position: relative;
+    left: 900px;
+    bottom: 5px;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    background-color: #0b0505;
+}
+#btn:hover,#btn1:hover,#btn2:hover{
+        background-color:red;
+        transform: scale(1.1);
+}
+
+.top-wear {
+    border: 2px rgb(59, 215, 233);
+    margin-top: 20px;
+    height: 500px;
+}
+
+.topwear-images {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.topwear-images img {
+    width: 380px;
+    height: 400px;
+    position: relative;
+    left: 5px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.topwear-images :hover{
+    transform:scale(0.9);
+}
+.Accessories{
+    border: 2px rgb(59, 215, 233);
+    margin-top: 20px;
+    height: 500px;
+}
+.acc-images{
+     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.acc-images img{
+     width: 380px;
+    height: 400px;
+    position: relative;
+    left: 5px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.acc-images :hover{
+   transform: scale(0.9);
 }
